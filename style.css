@@ -1,0 +1,103 @@
+body{
+  background-color: #E4572E;
+  color: rgb(255, 255, 255);
+  font-family: 'Koulen', cursive;
+  letter-spacing: 4px;
+  font-size:x-large;
+
+}
+
+.container{
+  margin: auto;
+  width: 50%;
+}
+
+.card{
+  background-color: #17bebb;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.element-border{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #2E282A;
+  border-width: 3px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.btn-sunglow{
+  background-color: #FFC914;
+  color: #2E282A;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.btn-raisin-black{
+  background-color: #2E282A;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.btn-green-ryb{
+  background-color: #76B041;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.btn-blue-violet{
+  background-color: #540D6E;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+  margin: 5px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
